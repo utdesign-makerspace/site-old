@@ -41,7 +41,7 @@ Table of Content
 
 */
 
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700%7CRoboto:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700|Roboto:400,500,700');
 * {
     margin: 0;
     padding: 0;
@@ -894,7 +894,7 @@ header .navbar-header img {
 =======================================*/
 
 .classes-inner {
-    background: url("https://tweetsbirds.com/learnd-demo/images/classes-background-image.jpg") no-repeat;
+    background: url(../images/classes-background-image.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -1195,7 +1195,7 @@ header .navbar-header img {
 =======================================*/
 
 .testimonial-inner {
-    background: url("https://tweetsbirds.com/learnd-demo/images/testimonial-background-image.jpg") no-repeat;
+    background: url(../images/testimonial-background-image.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -1517,7 +1517,7 @@ header .navbar-header img {
 =======================================*/
 
 #counter {
-    background: url("https://tweetsbirds.com/learnd-demo/images/counter-background-image.jpg") no-repeat;
+    background: url(../images/counter-background-image.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
     padding: 30px 0;
@@ -2098,7 +2098,7 @@ header .navbar-header img {
 =======================================*/
 
 #gallery_area {
-    background: url("https://tweetsbirds.com/learnd-demo/images/breadcramb-image.jpg") left top no-repeat;
+    background: url(../images/breadcramb-image.jpg) left top no-repeat;
     position: relative;
     z-index: 1;
     background-size: cover;
@@ -2826,7 +2826,7 @@ side_tab ul li {
 =======================================*/
 
 #error_area {
-    background: url("https://tweetsbirds.com/learnd-demo/images/404-banner-image.jpg") no-repeat;
+    background: url(../images/404-banner-image.jpg) no-repeat;
     position: relative;
     z-index: 1;
     background-size: cover;
