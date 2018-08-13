@@ -217,7 +217,7 @@ body{
 .header-border:after {
     height: 5px;
     width: 100%;
-    background: #f9d10c;
+    background: #f44336;
     position: absolute;
     content: "";
     left: 100%;
