@@ -1355,8 +1355,6 @@ header .navbar-header img {
     background: #4caf50;
     border: 1px solid #4caf50;
 }
-
-
 /*=====================================
  End of Testimonial  part css
 =======================================*/
@@ -1367,7 +1365,8 @@ header .navbar-header img {
 =======================================*/
 
 .Instructors-image {
-    position: relative;
+    position: fixed;
+    left: 50%;
     overflow: hidden;
     margin-bottom: 60px;
     margin-top: 5px;
