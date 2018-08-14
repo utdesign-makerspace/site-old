@@ -89,9 +89,12 @@ i {
     margin-bottom: 0px;
     line-height: normal;
 }
-body{
+
+body {
     overflow-x: hidden;
 }
+
+
 /*=====================================
  Preloader CSS START
 =======================================*/
@@ -114,9 +117,11 @@ body{
     transform: translate(-50%, -50%)
 }
 
+
 /*=====================================
  Preloader CSS END
 =======================================*/
+
 
 /*=====================================
  All common size css here start
@@ -134,9 +139,11 @@ body{
     padding-right: 0;
 }
 
+
 /*=====================================
  All common size  css here end
 =======================================*/
+
 
 /*=====================================
  All common  css here Start
@@ -199,9 +206,11 @@ body{
     left: 51.5%;
 }
 
+
 /*=====================================
  All common  css here end
 =======================================*/
+
 
 /*=====================================
  Start of Hedder Part Css
@@ -265,7 +274,7 @@ header .navbar-default ul li {
     padding: 5px 0 0;
 }
 
-header nav .nav > li > a {
+header nav .nav>li>a {
     color: #151515;
     line-height: 60px;
     font-size: 16px;
@@ -281,29 +290,33 @@ header nav .nav > li > a {
     -o-transition: all linear 0.2s;
     font-family: 'Roboto', sans-serif;
 }
+
 header nav ul li.active a,
-header nav .nav > li > a:hover {
+header nav .nav>li>a:hover {
     color: #4caf50;
     background: none;
 }
 
-header .navbar-default .nav > li > a:hover {
+header .navbar-default .nav>li>a:hover {
     background: transparent;
 }
 
-header nav .nav > li > a:focus {
+header nav .nav>li>a:focus {
     background: none;
 }
+
 
 /* dropdown menu */
 
 .dropdown-menu a {
     color: #151515!important;
 }
-.dropdown-menu a:hover{
+
+.dropdown-menu a:hover {
     color: #4caf50!important;
 }
-.custom_nav ul > li > a:after,
+
+.custom_nav ul>li>a:after,
 .dropdown-menu,
 .custom_nav.navbar-fixed-top,
 .custom_nav ul li a {
@@ -325,11 +338,12 @@ header nav .nav > li > a:focus {
     position: absolute;
 }
 
-.custom_nav ul > li > a:focus:after,
-.custom_nav ul > li.active > a:after,
-.custom_nav ul > li:hover > a:after {
+.custom_nav ul>li>a:focus:after,
+.custom_nav ul>li.active>a:after,
+.custom_nav ul>li:hover>a:after {
     opacity: 1;
 }
+
 
 /* dropdown menu */
 
@@ -340,26 +354,26 @@ header nav .nav > li > a:focus {
     margin-top: 13%;
 }
 
-.custom_nav ul > li .dropdown-menu li > a:after {
+.custom_nav ul>li .dropdown-menu li>a:after {
     left: -9px;
     top: 50%;
     transform: translateY(-50%) rotate(-90deg);
     transform: translateY(-50%) rotate(-90deg);
 }
 
-.nav .open > a,
-.nav .open > a:focus,
-.nav .open > a:hover {
+.nav .open>a,
+.nav .open>a:focus,
+.nav .open>a:hover {
     background: none;
 }
 
-.dropdown-menu > li > a:focus,
-.dropdown-menu > li > a:hover {
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
     background: none;
     color: #4caf50;
 }
 
-.dropdown-menu > li > a {
+.dropdown-menu>li>a {
     font-weight: 600;
     padding: 7px 28px;
     text-align: center;
@@ -367,6 +381,7 @@ header nav .nav > li > a:focus {
     font-family: 'Raleway', sans-serif;
     text-transform: capitalize;
 }
+
 
 /* dropdown menu css */
 
@@ -377,12 +392,13 @@ header nav .nav > li > a:focus {
         opacity: 0;
         top: 110%;
     }
-    .custom_nav ul > li:hover > .dropdown-menu {
+    .custom_nav ul>li:hover>.dropdown-menu {
         opacity: 1;
         visibility: visible;
         top: 100%;
     }
 }
+
 
 /*  dropdown */
 
@@ -390,6 +406,7 @@ header nav .nav > li > a:focus {
     background-color: transparent;
     border-color: transparent;
 }
+
 header .navbar-position {
     position: fixed;
     top: 0px;
@@ -406,14 +423,14 @@ header .navbar-position {
     border-radius: 0%;
 }
 
-.navbar-default > li > a {
+.navbar-default>li>a {
     position: relative;
     display: block;
     padding: 20px 10px;
 }
 
 header .navbar-header img {
-        padding-left: 0px;
+    padding-left: 0px;
     margin-bottom: 6px;
 }
 
@@ -426,8 +443,9 @@ header .navbar-header img {
     color: #fff;
 }
 
+
 /*===========================================
-		Banner area
+        Banner area
 ============================================*/
 
 .single_bnr {
@@ -461,8 +479,9 @@ header .navbar-header img {
     z-index: 999;
     text-align: center;
 }
-#typed, 
-.typed-cursor{
+
+#typed,
+.typed-cursor {
     font-size: 32px;
     color: #4caf50;
     letter-spacing: 2px;
@@ -471,6 +490,7 @@ header .navbar-header img {
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
 }
+
 .banner_total h3 {
     font-size: 32px;
     color: #4caf50;
@@ -560,7 +580,7 @@ header .navbar-header img {
     font-size: 72px;
 }
 
-.indicators-line > .carousel-indicators li {
+.indicators-line>.carousel-indicators li {
     background: transparent;
     display: inline-block;
     border: 1px solid #fff;
@@ -571,7 +591,7 @@ header .navbar-header img {
     width: 12px;
 }
 
-.indicators-line > .carousel-indicators .active {
+.indicators-line>.carousel-indicators .active {
     background: #4caf50;
     border: 1px solid #4caf50;
     height: 13px;
@@ -605,6 +625,7 @@ header .navbar-header img {
 .control-round .carousel-control.right:hover {
     background: #4caf50;
 }
+
 
 /* btn */
 
@@ -679,15 +700,19 @@ header .navbar-header img {
     transition: 0.5s;
 }
 
+
 /* btn */
 
+
 /*===========================================
-	banner area		
+    banner area     
 ============================================*/
+
 
 /*=====================================
  End of Hedder Part Css
 =======================================*/
+
 
 /*=====================================
  Start of banner part css
@@ -779,9 +804,11 @@ header .navbar-header img {
 }
 
 
+
 /*=====================================
  End of banner part css
 =======================================*/
+
 
 /*=====================================
  Start of We offer part css
@@ -885,9 +912,11 @@ header .navbar-header img {
     z-index: 9;
 }
 
+
 /*=====================================
  End of We offer  part css
 =======================================*/
+
 
 /*=====================================
  Start of Classes  part css
@@ -931,8 +960,9 @@ header .navbar-header img {
     text-align: center;
     padding: 8px 0;
     position: relative;
-     margin-bottom: 24px;
+    margin-bottom: 24px;
 }
+
 .test_inner,
 .cls-item a {
     text-align: center;
@@ -946,9 +976,11 @@ header .navbar-header img {
     text-transform: uppercase;
     z-index: 99;
 }
+
 .cls-item {
     margin-right: 7px;
 }
+
 .cls-item:after {
     position: absolute;
     content: '';
@@ -962,12 +994,15 @@ header .navbar-header img {
     border-left: 20px solid red;
     border-bottom: 20px solid transparent;
 }
-.cls-item a:hover{
+
+.cls-item a:hover {
     color: #fff;
 }
-.cls-item:hover a{
+
+.cls-item:hover a {
     color: #fff;
 }
+
 .cls-item :hover::after,
 .cls-item:hover::after {
     opacity: 1;
@@ -1000,7 +1035,7 @@ header .navbar-header img {
 
 .classes-vedio img {
     width: 100%;
-     height: 320px;
+    height: 320px;
 }
 
 .classes-vedio i {
@@ -1012,9 +1047,11 @@ header .navbar-header img {
     z-index: 9;
     transform: translate(-60%, -60%);
 }
-.cls-pad{
+
+.cls-pad {
     padding-left: 0;
 }
+
 .classes-right h4 {
     font-size: 20px;
     color: #fff;
@@ -1089,7 +1126,6 @@ header .navbar-header img {
     padding-left: 3px;
     padding-top: 1px;
     color: #fff;
-
 }
 
 .slidprev {
@@ -1109,9 +1145,11 @@ header .navbar-header img {
     color: #fff;
 }
 
+
 /*=====================================
  End of Classes  part css
 =======================================*/
+
 
 /*=====================================
  Start of Gallery  part css
@@ -1186,9 +1224,11 @@ header .navbar-header img {
     top: 51%;
 }
 
+
 /*=====================================
  End of Gallery  part css
 =======================================*/
+
 
 /*=====================================
  Start of Testimonial  part css
@@ -1268,11 +1308,12 @@ header .navbar-header img {
     font-size: 14px;
     color: #353535;
     text-transform: capitalize;
-   font-family: "Myriad Pro";
+    font-family: "Myriad Pro";
     line-height: 24px;
     font-weight: 400;
     display: inline-table;
 }
+
 .slick-dots {
     position: absolute;
     bottom: 25px;
@@ -1314,13 +1355,16 @@ header .navbar-header img {
     border: 1px solid #4caf50;
 }
 
+
 /*=====================================
  End of Testimonial  part css
 =======================================*/
 
+
 /*=====================================
  Start of Instructors  part css
 =======================================*/
+
 .Instructors-image {
     position: relative;
     overflow: hidden;
@@ -1508,9 +1552,11 @@ header .navbar-header img {
     transition: 0.5s;
 }
 
+
 /*=====================================
  End of Instructors  part css
 =======================================*/
+
 
 /*=====================================
  Start of Counter  part css
@@ -1524,6 +1570,7 @@ header .navbar-header img {
     z-index: 0;
     position: relative;
     margin-top: 90px;
+    margin-bottom: 150px;
 }
 
 #counter:after {
@@ -1556,9 +1603,11 @@ header .navbar-header img {
     font-weight: 700;
 }
 
+
 /*=====================================
  End of Counter  part css
 =======================================*/
+
 
 /*=====================================
  Start of Blog  part css
@@ -1719,6 +1768,7 @@ header .navbar-header img {
 .blog-h:hover .border-blog {
     opacity: 1;
 }
+
 .blog-h:hover .blog-image,
 .blog-h:hover .blog-inner {
     -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
@@ -1770,6 +1820,7 @@ header .navbar-header img {
     transition: .5s ease;
 }
 
+
 /*=====================================
  End of Blog  part css
 =======================================*/
@@ -1789,6 +1840,7 @@ header .navbar-header img {
     -moz-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4);
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4);
 }
+
 
 /*=====================================
  Start of Contact Part Css
@@ -1924,6 +1976,7 @@ header .navbar-header img {
     color: #fff;
 }
 
+
 /* =========== newsletter ========== */
 
 #contacts {
@@ -2056,9 +2109,11 @@ header .navbar-header img {
     -ms-transition: all .5s linear;
 }
 
+
 /*=====================================
  End of Contact Part Css
 =======================================*/
+
 
 /*=====================================
  Start of Footer Part Css
@@ -2089,9 +2144,11 @@ header .navbar-header img {
     text-transform: uppercase;
 }
 
+
 /*=====================================
  End of Footer Part Css
 =======================================*/
+
 
 /*=====================================
  Gallery page Css Start
@@ -2142,7 +2199,7 @@ header .navbar-header img {
     margin-left: 5px;
 }
 
-.inner_area ul.breadcrumb li + li:before {
+.inner_area ul.breadcrumb li+li:before {
     display: none;
 }
 
@@ -2156,9 +2213,11 @@ header .navbar-header img {
     margin-bottom: 60px;
 }
 
+
 /*=====================================
  Gallery page Css End
 =======================================*/
+
 
 /*=====================================
  Blog grid page Css start
@@ -2175,6 +2234,7 @@ header .navbar-header img {
     margin-right: 0;
     margin-bottom: 60px;
 }
+
 .sort_icon span {
     font-size: 16px;
     border: 1px solid #555;
@@ -2183,10 +2243,12 @@ header .navbar-header img {
     margin-left: 10px;
     color: #333
 }
-.sort_icon .glyphicon-th{
+
+.sort_icon .glyphicon-th {
     padding: 10px 8px 9px 10px;
 }
-.sort_icon .glyphicon-th-list{
+
+.sort_icon .glyphicon-th-list {
     padding: 10px 10px 9px 8px;
 }
 
@@ -2238,7 +2300,7 @@ header .navbar-header img {
     margin-top: -15px;
 }
 
-.pagination > li {
+.pagination>li {
     display: inline-block;
 }
 
@@ -2306,9 +2368,11 @@ header .navbar-header img {
     color: #151515 !important;
 }
 
+
 /*=====================================
  Blog grid page Css End
 =======================================*/
+
 
 /*=====================================
  Blog list page Css start
@@ -2452,15 +2516,15 @@ side_tab ul li {
     border: none;
 }
 
-.nav-tabs > li > a:hover {
+.nav-tabs>li>a:hover {
     border: none;
     background: transparent;
     color: #151515 !important;
 }
 
-.nav-tabs > li.active > a,
-.nav-tabs > li.active > a:focus,
-.nav-tabs > li.active > a:hover {
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
     color: #4caf50;
     cursor: default;
     background-color: #fff;
@@ -2468,7 +2532,7 @@ side_tab ul li {
     border-bottom-color: transparent;
 }
 
-.nav-tabs > li > a {
+.nav-tabs>li>a {
     margin-right: 0;
     line-height: 24px;
 }
@@ -2625,9 +2689,11 @@ side_tab ul li {
     margin-right: 15px;
 }
 
+
 /*=====================================
  Blog list page Css End
 =======================================*/
+
 
 /*=====================================
  Blog detail page Css start
@@ -2759,6 +2825,7 @@ side_tab ul li {
     text-transform: none;
 }
 
+
 /* contact form */
 
 .blogdetails_form form .form-group.col-sm-12 textarea {
@@ -2817,9 +2884,11 @@ side_tab ul li {
     cursor: pointer;
 }
 
+
 /*=====================================
  Blog detail page Css End
 =======================================*/
+
 
 /*=====================================
  404 page Css start
@@ -2836,7 +2905,7 @@ side_tab ul li {
     margin-bottom: 100px;
 }
 
-.error_Page {    
+.error_Page {
     margin-top: 50vh;
     margin-bottom: 0vh;
     -webkit-transform: translateY(-40%);
@@ -2866,7 +2935,7 @@ side_tab ul li {
 
 .error_Page p {
     margin-top: 50px;
-     margin-bottom: 50px;
+    margin-bottom: 50px;
     font-size: 18px;
     font-family: "Myriad Pro";
     line-height: 24px;
@@ -2948,9 +3017,11 @@ side_tab ul li {
     }
 }
 
+
 /*=====================================
  404 page Css end
 =======================================*/
+
 
 /* === BACK TO TOP CSS == */
 
