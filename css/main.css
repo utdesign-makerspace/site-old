@@ -1367,7 +1367,7 @@ header .navbar-header img {
 .Instructors-image {
     position: fixed;
     /*overflow: hidden;*/
-    left: 25%;
+    margin-left: 25%;
     margin-bottom: 60px;
     margin-top: 5px;
 }
