@@ -629,7 +629,7 @@ header .navbar-header img {
 
 /* btn */
 
-.btn_one {
+/*.btn_one {
     height: 48px;
     padding: 0px 20px;
     display: inline-block;
@@ -648,7 +648,7 @@ header .navbar-header img {
 
 .btn_one:hover {
     color: #fff;
-}
+}*/
 
 .btn_two {
     border-radius: 3px;
