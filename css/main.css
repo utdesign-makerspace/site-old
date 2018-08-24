@@ -1369,11 +1369,15 @@ header .navbar-header img {
     overflow: hidden;
     margin-bottom: 60px;
     margin-top: 5px;
-    left: 195px;
+    height: 300px;
 }
 
-.Instructors-image img {
-    width:100%
+.Instructors-image div.images {
+    width:100%;
+    height: 100%;
+    display: block;
+    background-size:cover;
+    background-position: center; 
 }
 
 .work_overlay img {
