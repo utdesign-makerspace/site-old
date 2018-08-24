@@ -1855,16 +1855,16 @@ header .navbar-header img {
 }
 
 #holder {
-    height: 118px;
+    height: 100px;
     width: 100%;
     position: relative;
-    margin-top: -178px;
+    margin-top: -168px;
     z-index: 9;
 }
 
 #mask {
     position: absolute;
-    top: -2px;
+    top: -5px;
     left: 0px;
     width: 12%;
     height: 3px;
