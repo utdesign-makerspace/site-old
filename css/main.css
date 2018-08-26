@@ -1991,7 +1991,6 @@ header .navbar-header img {
     border-bottom: 1px solid #777777;
 }
 
-
 .contact-logo img {
     padding-bottom: 10px;
 }
@@ -3020,6 +3019,36 @@ side_tab ul li {
         transform: rotate(-2deg)
     }
 }
+
+/*=====================================
+ Helpful links
+=======================================*/
+
+<style>
+a:link {
+    color: green; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+</style>
 
 
 /*=====================================
